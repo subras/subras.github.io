@@ -1,0 +1,104 @@
+
+/**************** Body and tag styles ****************/
+
+*{margin:0; padding:0;}
+
+
+body{
+font-family: Tahoma, Geneva, Helvetica, Arial,sans-serif;
+line-height:1.4em;
+text-align:center;
+color:#303030;
+background:#ffffff;
+}
+
+a{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	color: #467AA7;
+}
+/**************** Content styles ****************/
+#container{
+	background-color: white;
+	width: 800px;
+	padding: 0px 10px 30px 10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main{
+	width: 800px;
+	float:center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 10px 40px 10px;
+	font-size:1.0em;
+	background-color:#FFF;
+}
+
+#intro{
+	width:65%;
+	padding: 40px 20px 20px 20px;
+	float:left;
+	background-color:#FFF;
+	text-align: left;
+}
+
+#intro h2{
+	font-family: Candara,  Helvetica, Arial, sans-serif;
+	font-weight:bold; 
+	font-size: 1.4em; }
+#main a{ text-decoration: none; border-bottom: 1px dotted; color: #666;}
+#main a:hover { color: inherit; }
+
+#bio{
+	width:25%;
+	padding: 10px;
+	float:right;
+	text-align:left;
+	font:75% sans-serif;
+}
+#main p{text-align:left}
+#main h1{font-weight:bold}
+
+#content{
+float: center;
+width: 700px;
+background: #FFF;
+
+}
+
+#research{
+float: center;
+clear: both;
+width: 100%;
+padding: 0px 0px 0px 30px;
+font: 80% Tahoma, Geneva, Helvetica, Arial, sans-serif;
+background: #FFF;
+text-align: left;
+}
+
+#research h2{
+padding: 0px 0px 0px 0px;text-align:left;font-weight: bold;font-size:1.3em; font-family: Tahoma , Helvetica, Arial, sans-serif; }
+
+#research h3{
+	font-weight: normal;
+	font-size: 1.0em;
+	font-family: Tahoma, Geneva, Helvetica, Arial,sans-serif;
+}
+
+#research p{padding:0px 0px 0px 0px}
+#footer a{color:#0f0f0f; background-color:inherit;text-decoration:none; font-weight:bold}
+#footer a:hover{color:#3f3f3f; background-color:inherit;text-decoration:none;}
+
+/**************** Misc classes and styles ****************/
+
+.splitcontentleft{float:left; width:48%;}
+.splitcontentright{float:right; width:48%;}
+.clear{clear:both;}
+.small{font-size:0.8em;}
+.hide{display:none;}
+.textcenter{text-align:center;}
+.textright{text-align:right;}
+.important{color:#f02025; background-color:inherit; font-weight:bold;}
+
